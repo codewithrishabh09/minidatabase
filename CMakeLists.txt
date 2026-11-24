@@ -12,6 +12,12 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(minidatabase
     src/main.cpp
+
+    src/catalog/column.cpp
+    src/catalog/schema.cpp
+    src/catalog/row.cpp
+    src/catalog/table.cpp
+    src/catalog/database.cpp
 )
 
 target_include_directories(minidatabase
